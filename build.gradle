@@ -1,8 +1,8 @@
 apply plugin: 'java'
 apply plugin: 'maven'
 
-group = 'com.harmonycloud.zabbix'
-version = '0.2-dev'
+group = 'com.github.zh-w'
+version = '1.0.0'
 sourceCompatibility = 1.6
 
 repositories {
