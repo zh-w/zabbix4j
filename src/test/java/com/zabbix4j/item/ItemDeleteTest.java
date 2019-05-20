@@ -42,7 +42,7 @@ public class ItemDeleteTest extends ZabbixApiTestBase {
         ItemCreateRequest request = new ItemCreateRequest();
         ItemCreateRequest.Params params = request.getParams();
         params.setName("Test Item for Delete");
-        params.setDelay(60);
+        params.setDelay("1m");
         params.setHostid(10109);
         params.setKey_("agent.ping");
         params.setValue_type(ZabbixApiParamter.ITEM_VALUE_TYPE.CHARACTOR.value);
