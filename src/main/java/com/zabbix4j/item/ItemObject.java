@@ -34,28 +34,28 @@ public class ItemObject {
     private Integer itemid;
     private String delay = "1m";
     private Integer hostid;
-    private Integer interfaceid;
+    //private Integer interfaceid;
     private String key_;
     private String name;
     private Integer type;
     private Integer value_type;
-    private Integer authtype;
-    private Integer data_type;
+    //private Integer authtype;
+    //private Integer data_type;
     private String delay_flex;
-    private Integer delta;
+    //private Integer delta;
     private String description;
     private String error;
-    private Integer flags;
-    private Float formula;
-    private Integer history;
-    private Integer inventory_link;
-    private String ipmi_sensor;
-    private Long lastclock;
-    private Integer lastns;
+    //private Integer flags;
+    //private Float formula;
+    //private Integer history;
+    //private Integer inventory_link;
+    //private String ipmi_sensor;
+    //private Long lastclock;
+    //private Integer lastns;
     private String lastvalue;
     private String logtimefmt;
-    private Long mtime;
-    private Integer multiplier;
+    //private Long mtime;
+    //private Integer multiplier;
     private String params;
     private String password;
     private String port;
@@ -69,14 +69,14 @@ public class ItemObject {
     private String snmpv3_privpassphrase;
     private String snmpv3_securitylevel;
     private String snmpv3_securityname;
-    private Integer status;
-    private String templateid;
-    private String trapper_hosts;
-    private Integer trends;
+    //private Integer status;
+    //private String templateid;
+    //private String trapper_hosts;
+    //private Integer trends;
     private String units;
     private String username;
     private String valuemapid;
-    private Integer lifetime;
+    //private Integer lifetime;
 
     public String getValuemapid() {
         return valuemapid;
@@ -110,13 +110,13 @@ public class ItemObject {
         this.hostid = hostid;
     }
 
-    public Integer getInterfaceid() {
-        return interfaceid;
-    }
-
-    public void setInterfaceid(Integer interfaceid) {
-        this.interfaceid = interfaceid;
-    }
+//    public Integer getInterfaceid() {
+//        return interfaceid;
+//    }
+//
+//    public void setInterfaceid(Integer interfaceid) {
+//        this.interfaceid = interfaceid;
+//    }
 
     public String getKey_() {
         return key_;
@@ -150,37 +150,37 @@ public class ItemObject {
         this.value_type = value_type;
     }
 
-    public Integer getAuthtype() {
-        return authtype;
-    }
-
-    public void setAuthtype(Integer authtype) {
-        this.authtype = authtype;
-    }
-
-    public Integer getData_type() {
-        return data_type;
-    }
-
-    public void setData_type(Integer data_type) {
-        this.data_type = data_type;
-    }
-
-    public String getDelay_flex() {
-        return delay_flex;
-    }
-
-    public void setDelay_flex(String delay_flex) {
-        this.delay_flex = delay_flex;
-    }
-
-    public Integer getDelta() {
-        return delta;
-    }
-
-    public void setDelta(Integer delta) {
-        this.delta = delta;
-    }
+//    public Integer getAuthtype() {
+//        return authtype;
+//    }
+//
+//    public void setAuthtype(Integer authtype) {
+//        this.authtype = authtype;
+//    }
+//
+//    public Integer getData_type() {
+//        return data_type;
+//    }
+//
+//    public void setData_type(Integer data_type) {
+//        this.data_type = data_type;
+//    }
+//
+//    public String getDelay_flex() {
+//        return delay_flex;
+//    }
+//
+//    public void setDelay_flex(String delay_flex) {
+//        this.delay_flex = delay_flex;
+//    }
+//
+//    public Integer getDelta() {
+//        return delta;
+//    }
+//
+//    public void setDelta(Integer delta) {
+//        this.delta = delta;
+//    }
 
     public String getDescription() {
         return description;
@@ -198,61 +198,61 @@ public class ItemObject {
         this.error = error;
     }
 
-    public Integer getFlags() {
-        return flags;
-    }
-
-    public void setFlags(Integer flags) {
-        this.flags = flags;
-    }
-
-    public Float getFormula() {
-        return formula;
-    }
-
-    public void setFormula(Float formula) {
-        this.formula = formula;
-    }
-
-    public Integer getHistory() {
-        return history;
-    }
-
-    public void setHistory(Integer history) {
-        this.history = history;
-    }
-
-    public Integer getInventory_link() {
-        return inventory_link;
-    }
-
-    public void setInventory_link(Integer inventory_link) {
-        this.inventory_link = inventory_link;
-    }
-
-    public String getIpmi_sensor() {
-        return ipmi_sensor;
-    }
-
-    public void setIpmi_sensor(String ipmi_sensor) {
-        this.ipmi_sensor = ipmi_sensor;
-    }
-
-    public Long getLastclock() {
-        return lastclock;
-    }
-
-    public void setLastclock(Long lastclock) {
-        this.lastclock = lastclock;
-    }
-
-    public Integer getLastns() {
-        return lastns;
-    }
-
-    public void setLastns(Integer lastns) {
-        this.lastns = lastns;
-    }
+//    public Integer getFlags() {
+//        return flags;
+//    }
+//
+//    public void setFlags(Integer flags) {
+//        this.flags = flags;
+//    }
+//
+//    public Float getFormula() {
+//        return formula;
+//    }
+//
+//    public void setFormula(Float formula) {
+//        this.formula = formula;
+//    }
+//
+//    public Integer getHistory() {
+//        return history;
+//    }
+//
+//    public void setHistory(Integer history) {
+//        this.history = history;
+//    }
+//
+//    public Integer getInventory_link() {
+//        return inventory_link;
+//    }
+//
+//    public void setInventory_link(Integer inventory_link) {
+//        this.inventory_link = inventory_link;
+//    }
+//
+//    public String getIpmi_sensor() {
+//        return ipmi_sensor;
+//    }
+//
+//    public void setIpmi_sensor(String ipmi_sensor) {
+//        this.ipmi_sensor = ipmi_sensor;
+//    }
+//
+//    public Long getLastclock() {
+//        return lastclock;
+//    }
+//
+//    public void setLastclock(Long lastclock) {
+//        this.lastclock = lastclock;
+//    }
+//
+//    public Integer getLastns() {
+//        return lastns;
+//    }
+//
+//    public void setLastns(Integer lastns) {
+//        this.lastns = lastns;
+//    }
 
     public String getLastvalue() {
         return lastvalue;
@@ -270,13 +270,13 @@ public class ItemObject {
         this.logtimefmt = logtimefmt;
     }
 
-    public Integer getMultiplier() {
-        return multiplier;
-    }
-
-    public void setMultiplier(Integer multiplier) {
-        this.multiplier = multiplier;
-    }
+//    public Integer getMultiplier() {
+//        return multiplier;
+//    }
+//
+//    public void setMultiplier(Integer multiplier) {
+//        this.multiplier = multiplier;
+//    }
 
     public String getParams() {
         return params;
@@ -382,37 +382,37 @@ public class ItemObject {
         this.snmpv3_securityname = snmpv3_securityname;
     }
 
-    public Integer getStatus() {
-        return status;
-    }
-
-    public void setStatus(Integer status) {
-        this.status = status;
-    }
-
-    public String getTemplateid() {
-        return templateid;
-    }
-
-    public void setTemplateid(String templateid) {
-        this.templateid = templateid;
-    }
-
-    public String getTrapper_hosts() {
-        return trapper_hosts;
-    }
-
-    public void setTrapper_hosts(String trapper_hosts) {
-        this.trapper_hosts = trapper_hosts;
-    }
-
-    public Integer getTrends() {
-        return trends;
-    }
-
-    public void setTrends(Integer trends) {
-        this.trends = trends;
-    }
+//    public Integer getStatus() {
+//        return status;
+//    }
+//
+//    public void setStatus(Integer status) {
+//        this.status = status;
+//    }
+//
+//    public String getTemplateid() {
+//        return templateid;
+//    }
+//
+//    public void setTemplateid(String templateid) {
+//        this.templateid = templateid;
+//    }
+//
+//    public String getTrapper_hosts() {
+//        return trapper_hosts;
+//    }
+//
+//    public void setTrapper_hosts(String trapper_hosts) {
+//        this.trapper_hosts = trapper_hosts;
+//    }
+//
+//    public Integer getTrends() {
+//        return trends;
+//    }
+//
+//    public void setTrends(Integer trends) {
+//        this.trends = trends;
+//    }
 
     public String getUnits() {
         return units;
@@ -435,34 +435,34 @@ public class ItemObject {
      *
      * @return Value of mtime.
      */
-    public Long getMtime() {
-        return mtime;
-    }
+//    public Long getMtime() {
+//        return mtime;
+//    }
 
     /**
      * Sets new mtime.
      *
      * @param mtime New value of mtime.
      */
-    public void setMtime(Long mtime) {
-        this.mtime = mtime;
-    }
-
-    /**
-     * Gets lifetime.
-     *
-     * @return Value of lifetime.
-     */
-    public Integer getLifetime() {
-        return lifetime;
-    }
-
-    /**
-     * Sets new lifetime.
-     *
-     * @param lifetime New value of lifetime.
-     */
-    public void setLifetime(Integer lifetime) {
-        this.lifetime = lifetime;
-    }
+//    public void setMtime(Long mtime) {
+//        this.mtime = mtime;
+//    }
+//
+//    /**
+//     * Gets lifetime.
+//     *
+//     * @return Value of lifetime.
+//     */
+//    public Integer getLifetime() {
+//        return lifetime;
+//    }
+//
+//    /**
+//     * Sets new lifetime.
+//     *
+//     * @param lifetime New value of lifetime.
+//     */
+//    public void setLifetime(Integer lifetime) {
+//        this.lifetime = lifetime;
+//    }
 }
