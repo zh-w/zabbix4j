@@ -166,13 +166,13 @@ public class ItemObject {
 //        this.data_type = data_type;
 //    }
 //
-//    public String getDelay_flex() {
-//        return delay_flex;
-//    }
-//
-//    public void setDelay_flex(String delay_flex) {
-//        this.delay_flex = delay_flex;
-//    }
+    public String getDelay_flex() {
+        return delay_flex;
+    }
+
+    public void setDelay_flex(String delay_flex) {
+        this.delay_flex = delay_flex;
+    }
 //
 //    public Integer getDelta() {
 //        return delta;
