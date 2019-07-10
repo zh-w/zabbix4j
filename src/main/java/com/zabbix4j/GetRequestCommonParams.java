@@ -25,6 +25,7 @@
 package com.zabbix4j;
 
 import com.zabbix4j.utils.ZbxListUtils;
+import java.util.Map;
 
 import java.util.List;
 
@@ -39,7 +40,7 @@ public class GetRequestCommonParams {
     private List<Integer> nodeids;
     private String output = "extend";
     private Boolean preservekeys;
-    private String search;
+    private Map<String,String> search;
     private Boolean searchByAny;
     private Boolean searchWildcardsEnabled;
     private List<SortOrder> sortorder;
@@ -180,11 +181,11 @@ public class GetRequestCommonParams {
         return preservekeys;
     }
 
-    public String getSearch() {
+    public Map<String, String> getSearch() {
         return search;
     }
 
-    public void setSearch(String search) {
+    public void setSearch(Map<String, String> search) {
         this.search = search;
     }
 
