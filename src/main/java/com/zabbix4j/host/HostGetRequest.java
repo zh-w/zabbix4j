@@ -72,7 +72,7 @@ public class HostGetRequest extends ZabbixApiRequest {
         private String selectGraphs;
         private String selectHostDiscovery;
         private String selectHttpTests;
-        private String selectInterfaces;
+        private List<String> selectInterfaces;
         private String selectInventory;
         private String selectItems;
         private String selectMacros;
@@ -139,11 +139,11 @@ public class HostGetRequest extends ZabbixApiRequest {
             this.selectHttpTests = selectHttpTests;
         }
 
-        public String getSelectInterfaces() {
+        public List<String> getSelectInterfaces() {
             return selectInterfaces;
         }
 
-        public void setSelectInterfaces(String selectInterfaces) {
+        public void setSelectInterfaces(List<String> selectInterfaces) {
             this.selectInterfaces = selectInterfaces;
         }
 
