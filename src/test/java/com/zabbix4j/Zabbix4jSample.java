@@ -52,7 +52,7 @@ public class Zabbix4jSample {
             params.setHost("test host created1");
 
             // host name
-            params.setName("test host created1 name");
+            params.setName("test hostName");
 
             // send create request
             HostCreateResponse response = zabbixApi.host().create(request);
